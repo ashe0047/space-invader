@@ -1,0 +1,44 @@
+@font-face {
+    font-family: 'scoreboardfont';
+    src: url(/fonts/MinecraftTen-VGORe.ttf);
+}
+BODY, H2, H3, H4, H5, H6, TH, TD {
+font-family: arial, helvetica, sans-serif;
+}
+H1 {
+    font-size: 38px;
+    font-family: arial, helvetica, sans-serif;
+}
+
+.bullet{
+    fill: white;
+}
+
+#scoreboard{
+    fill: rgb(214, 236, 255);
+    font-family: 'scoreboardfont';
+    font-size: 40px;
+}
+
+#leveldisplay{
+    fill: rgb(214, 236, 255);
+    font-family: 'scoreboardfont';
+    font-size: 40px;
+}
+
+#gameover{
+    fill: rgb(250, 210, 33);
+    font-family: 'scoreboardfont';
+    font-size: 80px;
+}
+#restart{
+    fill: aliceblue;
+    font-family: 'scoreboardfont';
+    font-size: 30px;
+}
+#levelcleared{
+    fill: rgb(84, 250, 33);
+    font-family: 'scoreboardfont';
+    font-size: 70px;
+    white-space: pre-line;
+}
